@@ -102,12 +102,33 @@ with 24 columns ready for direct import into Power BI Desktop.
 ---
 
 ## Phase 2 - Power BI Dashboard
-Coming soon — interactive dashboard with:
-- Sales performance by region and category
-- Monthly and quarterly sales trends
-- Top performing products and customers
-- Shipping performance analysis
-- Customer segment breakdown
+
+### Dashboard Visuals
+Six interactive visuals were built to analyze superstore sales performance:
+
+1. **Total Sales KPI Card** — Headline revenue figure of $2.26M across 4 years
+2. **Sales by Region** — West region leads with highest sales, South has lowest
+3. **Sales by Category** — Technology dominates at $827K, followed by Furniture
+   and Office Supplies
+4. **Sales Trend by Month** — Clear seasonality pattern with peaks in
+   September to November across all years driven by holiday shopping
+5. **Sales by Customer Segment** — Consumer segment leads with over $1M,
+   Home Office generates the least
+6. **Top 10 Products** — Canon imageCLASS is the hero product with sales
+   far exceeding all other products
+
+### Interactive Feature
+Year slicer allows filtering all visuals simultaneously by year
+enabling year over year performance comparison with one click.
+
+### Key Business Insights
+- West region should receive highest marketing investment given sales dominance
+- Technology category is the strongest revenue driver
+- Business shows healthy year over year growth from 2015 to 2018
+- Sales consistently peak in Q4 — inventory and staffing should be planned accordingly
+- Canon imageCLASS is a hero product — ensuring stock availability is critical
+- Consumer segment drives the majority of revenue — retention campaigns are essential
+- January and February are slowest months — targeted promotions needed to boost sales
 
 ---
 
@@ -119,8 +140,11 @@ Coming soon — interactive dashboard with:
 ✅ Shipping performance feature complete
 ✅ Sales category feature complete
 ✅ Cleaned dataset exported for Power BI
+✅ Power BI dashboard complete - 6 interactive visuals
+✅ Year slicer for interactive filtering
+✅ Dashboard exported as PDF and screenshot
 
-🔄 Phase 2 in progress - Power BI Dashboard development
+---
 
 ## Connection to Portfolio
 This project builds on skills developed in previous projects:
@@ -129,6 +153,8 @@ This project builds on skills developed in previous projects:
 
 This project adds Business Intelligence and interactive dashboard skills
 to complete a well rounded data science and analytics portfolio.
+
+---
 
 ## Author
 Patricia Kiarie | Data Science Undergraduate
